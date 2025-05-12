@@ -1,12 +1,7 @@
-import HookStructure from "./HookStructure";
-import NameInput from "./NameInput";
+import ItemList from "./ItemList";
 
 const App = () => {
-  return (
-    <div>
-      <HookStructure />
-    </div>
-  );
+  return <ItemList />;
 };
 
 export default App;
