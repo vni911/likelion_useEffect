@@ -1,7 +1,8 @@
+import MovieList from "./MovieList";
 import TimerSwitch from "./TimerSwitch";
 
 const App = () => {
-  return <TimerSwitch />;
+  return <MovieList />;
 };
 
 export default App;
